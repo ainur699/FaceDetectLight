@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="FaceRecognizer.cpp" />
+    <ClCompile Include="OpenFace\src\CCNF_patch_expert.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\LandmarkDetectionValidator.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\LandmarkDetectorFunc.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\LandmarkDetectorModel.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\LandmarkDetectorParameters.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\LandmarkDetectorUtils.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\Patch_experts.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\PAW.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\PDM.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFace\src\SVR_patch_expert.cpp">
+      <Filter>OpenFace</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceSwap\seamless\seamless.cpp">
+      <Filter>FaceSwap\Seamless</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceSwap\FaceSwap.cpp">
+      <Filter>FaceSwap</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeModel.cpp" />
+    <ClCompile Include="..\..\libraries\DLIB_LIB\dlib\all\source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FaceSwap\seamless\seamless.h">
+      <Filter>FaceSwap\Seamless</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceSwap\FaceSwap.h">
+      <Filter>FaceSwap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OpenFace">
+      <UniqueIdentifier>{0c437204-2376-44a4-b06b-d5976d637eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceSwap">
+      <UniqueIdentifier>{88744e71-3944-483d-8dab-fb803ebc8005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceSwap\Seamless">
+      <UniqueIdentifier>{5f2b1f06-eb94-4466-8a73-3309c773ed62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
